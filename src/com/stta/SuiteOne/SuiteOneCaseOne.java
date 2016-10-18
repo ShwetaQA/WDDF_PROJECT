@@ -17,7 +17,7 @@ import com.stta.utility.SuiteUtility;
 //So, SuiteOneCaseOne Class Is Child Class Of SuiteOneBase Class And SuiteBase Class.
 public class SuiteOneCaseOne extends SuiteOneBase{
 	Read_XLS FilePath = null;
-	int SheetName = null;
+	char SheetName = null;
 	String TestCaseName = null;	
 	String ToRunColumnNameTestCase = null;
 	String ToRunColumnNameTestData = null;
