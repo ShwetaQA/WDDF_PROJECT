@@ -2,6 +2,7 @@
 package com.stta.SuiteOne;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.testng.SkipException;
 import org.testng.annotations.AfterMethod;
@@ -82,6 +83,7 @@ public class SuiteOneCaseTwo extends SuiteOneBase{
 		loadWebBrowser();
 		
 		driver.get(Param.getProperty("siteURL")+"/2014/04/calc.html");		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		getElementByName("txt_Result").clear();
 		getElementByXPath("btn_Calc_PrePart",ValueOne,"btn_Calc_PostPart").click();
 		getElementByID("btn_Minus").click();

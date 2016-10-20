@@ -1,44 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [SuiteTwo]">
-  <test name="SuiteTwoCaseOne(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
+      <class name="com.stta.SuiteOne.SuiteOneBase">
         <methods>
           <include name="checkSuiteToRun"/>
-          <include name="checkCaseToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteOne.SuiteOneBase -->
+      <class name="com.stta.SuiteOne.SuiteOneCaseTwo">
+        <methods>
           <include name="reporterDataResults"/>
           <include name="closeBrowser"/>
+          <include name="checkCaseToRun"/>
+          <include name="SuiteOneCaseTwoTest" invocation-numbers="1"/>
         </methods>
-      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
+      </class> <!-- com.stta.SuiteOne.SuiteOneCaseTwo -->
       <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="checkCaseToRun"/>
-          <include name="reporterDataResults"/>
-          <include name="SuiteTwoCaseOneTest" invocation-numbers="0 1"/>
-        </methods>
-      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
-    </classes>
-  </test> <!-- SuiteTwoCaseOne(failed) -->
-  <test name="SuiteTwoCaseTwo(failed)">
-    <classes>
-      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
-        <methods>
-          <include name="SuiteTwoCaseTwoTest" invocation-numbers="0 1"/>
-          <include name="checkSuiteToRun"/>
-          <include name="checkCaseToRun"/>
-          <include name="reporterDataResults"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
-      <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
-        <methods>
-          <include name="closeBrowser"/>
           <include name="checkCaseToRun"/>
           <include name="reporterDataResults"/>
         </methods>
       </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
+        <methods>
+          <include name="SuiteTwoCaseTwoTest" invocation-numbers="1"/>
+          <include name="checkSuiteToRun"/>
+          <include name="checkCaseToRun"/>
+          <include name="reporterDataResults"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
+      <class name="com.stta.SuiteOne.SuiteOneCaseOne">
+        <methods>
+          <include name="reporterDataResults"/>
+          <include name="checkCaseToRun"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.stta.SuiteOne.SuiteOneCaseOne -->
     </classes>
-  </test> <!-- SuiteTwoCaseTwo(failed) -->
-</suite> <!-- Failed suite [SuiteTwo] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

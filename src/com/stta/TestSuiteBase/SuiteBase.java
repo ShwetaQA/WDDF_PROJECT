@@ -13,6 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import com.stta.utility.Read_XLS;
 
@@ -70,20 +71,30 @@ public class SuiteBase {
 			}		
 		
 		
-			if(Param.getProperty("testBrowser").equalsIgnoreCase("Mozilla")){
+			if(Param.getProperty("testBrowser").equalsIgnoreCase("Mozilla"))
+			{
 				//To Load Firefox driver Instance. 
-				driver = new FirefoxDriver();
+				//driver = new FirefoxDriver();
+
+				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"//BrowserDrivers//geckodriver.exe");
+				DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+				capabilities.setCapability("marionette", true);
+				driver = new FirefoxDriver(capabilities); 
 				ExistingmozillaBrowser=driver;
 				Add_Log.info("Firefox Driver Instance loaded successfully.");
 				
-			}else if(Param.getProperty("testBrowser").equalsIgnoreCase("Chrome")){
+			}
+			else if(Param.getProperty("testBrowser").equalsIgnoreCase("Chrome"))
+			{
 				//To Load Chrome driver Instance.
 				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//BrowserDrivers//chromedriver.exe");
 				driver = new ChromeDriver();
 				ExistingchromeBrowser=driver;
 				Add_Log.info("Chrome Driver Instance loaded successfully.");
 				
-			}else if(Param.getProperty("testBrowser").equalsIgnoreCase("IE")){
+			}
+			else if(Param.getProperty("testBrowser").equalsIgnoreCase("IE"))
+			{
 				//To Load IE driver Instance.
 				System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"//BrowserDrivers//IEDriverServer.exe");
 				driver = new InternetExplorerDriver();
@@ -91,11 +102,12 @@ public class SuiteBase {
 				Add_Log.info("IE Driver Instance loaded successfully.");
 				
 			}			
-			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-			driver.manage().window().maximize();			
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			//driver.manage().window().maximize();			
 	}
 	
-	public void closeWebBrowser(){
+	public void closeWebBrowser()
+	{
 		driver.close();
 		//null browser Instance when close.
 		ExistingchromeBrowser=null;
@@ -104,7 +116,8 @@ public class SuiteBase {
 	}
 	
 	//getElementByXPath function for static xpath
-	public WebElement getElementByXPath(String Key){
+	public WebElement getElementByXPath(String Key)
+	{
 		try{
 			//This block will find element using Key value from web page and return It.
 			return driver.findElement(By.xpath(Object.getProperty(Key)));
@@ -116,11 +129,13 @@ public class SuiteBase {
 	}
 	
 	//getElementByXPath function for dynamic xpath
-	public WebElement getElementByXPath(String Key1, int val, String key2){
+	public WebElement getElementByXPath(String Key1, int val, String key2)
+	{
 		try{
 			//This block will find element using values of Key1, val and key2 from web page and return It.
 			return driver.findElement(By.xpath(Object.getProperty(Key1)+val+Object.getProperty(key2)));
-		}catch(Throwable t){
+		}
+		catch(Throwable t){
 			//If element not found on page then It will return null.
 			Add_Log.debug("Object not found for custom xpath");
 			return null;
@@ -128,7 +143,8 @@ public class SuiteBase {
 	}
 	
 	//Call this function to locate element by ID locator.
-	public WebElement getElementByID(String Key){
+	public WebElement getElementByID(String Key)
+	{
 		try{
 			return driver.findElement(By.id(Object.getProperty(Key)));
 		}catch(Throwable t){
@@ -138,7 +154,8 @@ public class SuiteBase {
 	}
 	
 	//Call this function to locate element by Name Locator.
-	public WebElement getElementByName(String Key){
+	public WebElement getElementByName(String Key)
+	{
 		try{
 			return driver.findElement(By.name(Object.getProperty(Key)));
 		}catch(Throwable t){
@@ -148,7 +165,8 @@ public class SuiteBase {
 	}
 	
 	//Call this function to locate element by cssSelector Locator.
-	public WebElement getElementByCSS(String Key){
+	public WebElement getElementByCSS(String Key)
+	{
 		try{
 			return driver.findElement(By.cssSelector(Object.getProperty(Key)));
 		}catch(Throwable t){
@@ -158,7 +176,8 @@ public class SuiteBase {
 	}
 	
 	//Call this function to locate element by ClassName Locator.
-	public WebElement getElementByClass(String Key){
+	public WebElement getElementByClass(String Key)
+	{
 		try{
 			return driver.findElement(By.className(Object.getProperty(Key)));
 		}catch(Throwable t){
@@ -168,7 +187,8 @@ public class SuiteBase {
 	}
 	
 	//Call this function to locate element by tagName Locator.
-	public WebElement getElementByTagName(String Key){
+	public WebElement getElementByTagName(String Key)
+	{
 		try{
 			return driver.findElement(By.tagName(Object.getProperty(Key)));
 		}catch(Throwable t){
@@ -178,7 +198,8 @@ public class SuiteBase {
 	}
 	
 	//Call this function to locate element by link text Locator.
-	public WebElement getElementBylinkText(String Key){
+	public WebElement getElementBylinkText(String Key)
+	{
 		try{
 			return driver.findElement(By.linkText(Object.getProperty(Key)));
 		}catch(Throwable t){
@@ -188,7 +209,8 @@ public class SuiteBase {
 	}
 	
 	//Call this function to locate element by partial link text Locator.
-	public WebElement getElementBypLinkText(String Key){
+	public WebElement getElementBypLinkText(String Key)
+	{
 		try{
 			return driver.findElement(By.partialLinkText(Object.getProperty(Key)));
 		}catch(Throwable t){

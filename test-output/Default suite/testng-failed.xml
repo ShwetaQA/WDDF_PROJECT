@@ -3,20 +3,6 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
-        <methods>
-          <include name="checkCaseToRun"/>
-          <include name="reporterDataResults"/>
-        </methods>
-      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
-      <class name="com.stta.SuiteOne.SuiteOneCaseOne">
-        <methods>
-          <include name="reporterDataResults"/>
-          <include name="checkCaseToRun"/>
-          <include name="closeBrowser"/>
-          <include name="SuiteOneCaseOneTest" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.stta.SuiteOne.SuiteOneCaseOne -->
       <class name="com.stta.SuiteOne.SuiteOneBase">
         <methods>
           <include name="checkSuiteToRun"/>
@@ -27,15 +13,30 @@
           <include name="reporterDataResults"/>
           <include name="closeBrowser"/>
           <include name="checkCaseToRun"/>
+          <include name="SuiteOneCaseTwoTest" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.stta.SuiteOne.SuiteOneCaseTwo -->
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
+        <methods>
+          <include name="checkCaseToRun"/>
+          <include name="reporterDataResults"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
       <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
         <methods>
+          <include name="SuiteTwoCaseTwoTest" invocation-numbers="1"/>
           <include name="checkSuiteToRun"/>
           <include name="checkCaseToRun"/>
           <include name="reporterDataResults"/>
         </methods>
       </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
+      <class name="com.stta.SuiteOne.SuiteOneCaseOne">
+        <methods>
+          <include name="reporterDataResults"/>
+          <include name="checkCaseToRun"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.stta.SuiteOne.SuiteOneCaseOne -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
