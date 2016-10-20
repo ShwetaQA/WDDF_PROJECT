@@ -3,28 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.stta.SuiteOne.SuiteOneCaseTwo">
-        <methods>
-          <include name="checkCaseToRun"/>
-          <include name="SuiteOneCaseTwoTest"/>
-        </methods>
-      </class> <!-- com.stta.SuiteOne.SuiteOneCaseTwo -->
       <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
         <methods>
           <include name="checkCaseToRun"/>
-          <include name="SuiteTwoCaseOneTest"/>
+          <include name="reporterDataResults"/>
         </methods>
       </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
-      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
-        <methods>
-          <include name="SuiteTwoCaseTwoTest"/>
-          <include name="checkSuiteToRun"/>
-        </methods>
-      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
       <class name="com.stta.SuiteOne.SuiteOneCaseOne">
         <methods>
+          <include name="reporterDataResults"/>
           <include name="checkCaseToRun"/>
-          <include name="SuiteOneCaseOneTest"/>
+          <include name="closeBrowser"/>
+          <include name="SuiteOneCaseOneTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.stta.SuiteOne.SuiteOneCaseOne -->
       <class name="com.stta.SuiteOne.SuiteOneBase">
@@ -32,6 +22,20 @@
           <include name="checkSuiteToRun"/>
         </methods>
       </class> <!-- com.stta.SuiteOne.SuiteOneBase -->
+      <class name="com.stta.SuiteOne.SuiteOneCaseTwo">
+        <methods>
+          <include name="reporterDataResults"/>
+          <include name="closeBrowser"/>
+          <include name="checkCaseToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteOne.SuiteOneCaseTwo -->
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
+        <methods>
+          <include name="checkSuiteToRun"/>
+          <include name="checkCaseToRun"/>
+          <include name="reporterDataResults"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="6" total="8" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="SuiteOne" duration-ms="17050" started-at="2016-10-18T13:44:49Z" finished-at="2016-10-18T13:45:06Z">
+  <suite name="SuiteOne" duration-ms="26445" started-at="2016-10-20T08:49:55Z" finished-at="2016-10-20T08:50:21Z">
     <groups>
     </groups>
-    <test name="SuiteOneCaseOne" duration-ms="10813" started-at="2016-10-18T13:44:49Z" finished-at="2016-10-18T13:45:00Z">
+    <test name="SuiteOneCaseOne" duration-ms="16698" started-at="2016-10-20T08:49:55Z" finished-at="2016-10-20T08:50:12Z">
       <class name="com.stta.SuiteOne.SuiteOneCaseOne">
-        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@523884b2]" name="checkCaseToRun" is-config="true" duration-ms="16" started-at="2016-10-18T14:44:49Z" finished-at="2016-10-18T14:44:49Z">
+        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@ae45eb6]" name="checkCaseToRun" is-config="true" duration-ms="14" started-at="2016-10-20T09:49:55Z" finished-at="2016-10-20T09:49:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCaseToRun -->
-        <test-method status="PASS" signature="SuiteOneCaseOneTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@523884b2]" name="SuiteOneCaseOneTest" duration-ms="9367" started-at="2016-10-18T14:44:49Z" data-provider="SuiteOneCaseOneData" finished-at="2016-10-18T14:44:58Z">
+        <test-method status="PASS" signature="SuiteOneCaseOneTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@ae45eb6]" name="SuiteOneCaseOneTest" duration-ms="14545" started-at="2016-10-20T09:49:55Z" data-provider="SuiteOneCaseOneData" finished-at="2016-10-20T09:50:10Z">
           <params>
             <param index="0">
               <value>
@@ -30,18 +30,18 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[22]]>
+                <![CDATA[21]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteOneCaseOneTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@523884b2]" name="reporterDataResults" is-config="true" duration-ms="8" started-at="2016-10-18T14:44:58Z" finished-at="2016-10-18T14:44:58Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@ae45eb6]" name="reporterDataResults" is-config="true" duration-ms="9" started-at="2016-10-20T09:50:10Z" finished-at="2016-10-20T09:50:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
-        <test-method status="PASS" signature="SuiteOneCaseOneTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@523884b2]" name="SuiteOneCaseOneTest" duration-ms="1216" started-at="2016-10-18T14:44:58Z" data-provider="SuiteOneCaseOneData" finished-at="2016-10-18T14:45:00Z">
+        <test-method status="PASS" signature="SuiteOneCaseOneTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@ae45eb6]" name="SuiteOneCaseOneTest" duration-ms="1229" started-at="2016-10-20T09:50:10Z" data-provider="SuiteOneCaseOneData" finished-at="2016-10-20T09:50:11Z">
           <params>
             <param index="0">
               <value>
@@ -67,27 +67,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteOneCaseOneTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@523884b2]" name="reporterDataResults" is-config="true" duration-ms="8" started-at="2016-10-18T14:45:00Z" finished-at="2016-10-18T14:45:00Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@ae45eb6]" name="reporterDataResults" is-config="true" duration-ms="8" started-at="2016-10-20T09:50:11Z" finished-at="2016-10-20T09:50:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@523884b2]" name="closeBrowser" is-config="true" duration-ms="183" started-at="2016-10-18T14:45:00Z" finished-at="2016-10-18T14:45:00Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@ae45eb6]" name="closeBrowser" is-config="true" duration-ms="876" started-at="2016-10-20T09:50:11Z" finished-at="2016-10-20T09:50:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.stta.SuiteOne.SuiteOneCaseOne -->
     </test> <!-- SuiteOneCaseOne -->
-    <test name="SuiteOneCaseTwo" duration-ms="6185" started-at="2016-10-18T13:45:00Z" finished-at="2016-10-18T13:45:06Z">
+    <test name="SuiteOneCaseTwo" duration-ms="9384" started-at="2016-10-20T08:50:12Z" finished-at="2016-10-20T08:50:21Z">
       <class name="com.stta.SuiteOne.SuiteOneCaseTwo">
-        <test-method status="PASS" signature="checkSuiteToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6093dd95]" name="checkSuiteToRun" is-config="true" duration-ms="238" started-at="2016-10-18T14:44:49Z" finished-at="2016-10-18T14:44:49Z">
+        <test-method status="PASS" signature="checkSuiteToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@53b32d7]" name="checkSuiteToRun" is-config="true" duration-ms="244" started-at="2016-10-20T09:49:55Z" finished-at="2016-10-20T09:49:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSuiteToRun -->
-        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6093dd95]" name="checkCaseToRun" is-config="true" duration-ms="14" started-at="2016-10-18T14:45:00Z" finished-at="2016-10-18T14:45:00Z">
+        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@53b32d7]" name="checkCaseToRun" is-config="true" duration-ms="35" started-at="2016-10-20T09:50:12Z" finished-at="2016-10-20T09:50:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCaseToRun -->
-        <test-method status="PASS" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6093dd95]" name="SuiteOneCaseTwoTest" duration-ms="5714" started-at="2016-10-18T14:45:00Z" data-provider="SuiteOneCaseTwoData" finished-at="2016-10-18T14:45:06Z">
+        <test-method status="FAIL" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@53b32d7]" name="SuiteOneCaseTwoTest" duration-ms="6908" started-at="2016-10-20T09:50:12Z" data-provider="SuiteOneCaseTwoData" finished-at="2016-10-20T09:50:19Z">
           <params>
             <param index="0">
               <value>
@@ -110,14 +110,47 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.stta.SuiteOne.SuiteOneCaseTwo.SuiteOneCaseTwoTest(SuiteOneCaseTwo.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteOneCaseTwoTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6093dd95]" name="reporterDataResults" is-config="true" duration-ms="10" started-at="2016-10-18T14:45:06Z" finished-at="2016-10-18T14:45:06Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@53b32d7]" name="reporterDataResults" is-config="true" duration-ms="9" started-at="2016-10-20T09:50:19Z" finished-at="2016-10-20T09:50:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
-        <test-method status="PASS" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6093dd95]" name="SuiteOneCaseTwoTest" duration-ms="287" started-at="2016-10-18T14:45:06Z" data-provider="SuiteOneCaseTwoData" finished-at="2016-10-18T14:45:06Z">
+        <test-method status="FAIL" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@53b32d7]" name="SuiteOneCaseTwoTest" duration-ms="1203" started-at="2016-10-20T09:50:19Z" data-provider="SuiteOneCaseTwoData" finished-at="2016-10-20T09:50:20Z">
           <params>
             <param index="0">
               <value>
@@ -140,34 +173,67 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.stta.SuiteOne.SuiteOneCaseTwo.SuiteOneCaseTwoTest(SuiteOneCaseTwo.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteOneCaseTwoTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6093dd95]" name="reporterDataResults" is-config="true" duration-ms="10" started-at="2016-10-18T14:45:06Z" finished-at="2016-10-18T14:45:06Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@53b32d7]" name="reporterDataResults" is-config="true" duration-ms="7" started-at="2016-10-20T09:50:20Z" finished-at="2016-10-20T09:50:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6093dd95]" name="closeBrowser" is-config="true" duration-ms="145" started-at="2016-10-18T14:45:06Z" finished-at="2016-10-18T14:45:06Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@53b32d7]" name="closeBrowser" is-config="true" duration-ms="1196" started-at="2016-10-20T09:50:20Z" finished-at="2016-10-20T09:50:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.stta.SuiteOne.SuiteOneCaseTwo -->
     </test> <!-- SuiteOneCaseTwo -->
   </suite> <!-- SuiteOne -->
-  <suite name="Calc Suite" duration-ms="0" started-at="2016-10-18T13:45:19Z" finished-at="2016-10-18T13:45:19Z">
+  <suite name="Calc Suite" duration-ms="0" started-at="2016-10-20T08:50:39Z" finished-at="2016-10-20T08:50:39Z">
     <groups>
     </groups>
   </suite> <!-- Calc Suite -->
-  <suite name="SuiteTwo" duration-ms="13211" started-at="2016-10-18T13:45:06Z" finished-at="2016-10-18T13:45:19Z">
+  <suite name="SuiteTwo" duration-ms="17222" started-at="2016-10-20T08:50:22Z" finished-at="2016-10-20T08:50:39Z">
     <groups>
     </groups>
-    <test name="SuiteTwoCaseOne" duration-ms="6455" started-at="2016-10-18T13:45:06Z" finished-at="2016-10-18T13:45:13Z">
+    <test name="SuiteTwoCaseOne" duration-ms="9147" started-at="2016-10-20T08:50:22Z" finished-at="2016-10-20T08:50:31Z">
       <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
-        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@53b32d7]" name="checkCaseToRun" is-config="true" duration-ms="6" started-at="2016-10-18T14:45:06Z" finished-at="2016-10-18T14:45:06Z">
+        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@146ba0ac]" name="checkCaseToRun" is-config="true" duration-ms="25" started-at="2016-10-20T09:50:22Z" finished-at="2016-10-20T09:50:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCaseToRun -->
-        <test-method status="PASS" signature="SuiteTwoCaseOneTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@53b32d7]" name="SuiteTwoCaseOneTest" duration-ms="6102" started-at="2016-10-18T14:45:06Z" data-provider="SuiteTwoCaseOneData" finished-at="2016-10-18T14:45:12Z">
+        <test-method status="FAIL" signature="SuiteTwoCaseOneTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@146ba0ac]" name="SuiteTwoCaseOneTest" duration-ms="6572" started-at="2016-10-20T09:50:22Z" data-provider="SuiteTwoCaseOneData" finished-at="2016-10-20T09:50:28Z">
           <params>
             <param index="0">
               <value>
@@ -185,14 +251,47 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.stta.SuiteTwo.SuiteTwoCaseOne.SuiteTwoCaseOneTest(SuiteTwoCaseOne.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteTwoCaseOneTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@53b32d7]" name="reporterDataResults" is-config="true" duration-ms="11" started-at="2016-10-18T14:45:12Z" finished-at="2016-10-18T14:45:12Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@146ba0ac]" name="reporterDataResults" is-config="true" duration-ms="11" started-at="2016-10-20T09:50:28Z" finished-at="2016-10-20T09:50:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
-        <test-method status="PASS" signature="SuiteTwoCaseOneTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@53b32d7]" name="SuiteTwoCaseOneTest" duration-ms="145" started-at="2016-10-18T14:45:12Z" data-provider="SuiteTwoCaseOneData" finished-at="2016-10-18T14:45:12Z">
+        <test-method status="FAIL" signature="SuiteTwoCaseOneTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@146ba0ac]" name="SuiteTwoCaseOneTest" duration-ms="1173" started-at="2016-10-20T09:50:28Z" data-provider="SuiteTwoCaseOneData" finished-at="2016-10-20T09:50:29Z">
           <params>
             <param index="0">
               <value>
@@ -210,30 +309,63 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.stta.SuiteTwo.SuiteTwoCaseOne.SuiteTwoCaseOneTest(SuiteTwoCaseOne.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteTwoCaseOneTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@53b32d7]" name="reporterDataResults" is-config="true" duration-ms="12" started-at="2016-10-18T14:45:12Z" finished-at="2016-10-18T14:45:12Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@146ba0ac]" name="reporterDataResults" is-config="true" duration-ms="7" started-at="2016-10-20T09:50:29Z" finished-at="2016-10-20T09:50:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@53b32d7]" name="closeBrowser" is-config="true" duration-ms="176" started-at="2016-10-18T14:45:12Z" finished-at="2016-10-18T14:45:13Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@146ba0ac]" name="closeBrowser" is-config="true" duration-ms="1355" started-at="2016-10-20T09:50:29Z" finished-at="2016-10-20T09:50:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
     </test> <!-- SuiteTwoCaseOne -->
-    <test name="SuiteTwoCaseTwo" duration-ms="6740" started-at="2016-10-18T13:45:13Z" finished-at="2016-10-18T13:45:19Z">
+    <test name="SuiteTwoCaseTwo" duration-ms="8047" started-at="2016-10-20T08:50:31Z" finished-at="2016-10-20T08:50:39Z">
       <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
-        <test-method status="PASS" signature="checkSuiteToRun()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@146ba0ac]" name="checkSuiteToRun" is-config="true" duration-ms="22" started-at="2016-10-18T14:45:06Z" finished-at="2016-10-18T14:45:06Z">
+        <test-method status="PASS" signature="checkSuiteToRun()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@31ef45e3]" name="checkSuiteToRun" is-config="true" duration-ms="22" started-at="2016-10-20T09:50:21Z" finished-at="2016-10-20T09:50:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSuiteToRun -->
-        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@146ba0ac]" name="checkCaseToRun" is-config="true" duration-ms="10" started-at="2016-10-18T14:45:13Z" finished-at="2016-10-18T14:45:13Z">
+        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@31ef45e3]" name="checkCaseToRun" is-config="true" duration-ms="8" started-at="2016-10-20T09:50:31Z" finished-at="2016-10-20T09:50:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCaseToRun -->
-        <test-method status="PASS" signature="SuiteTwoCaseTwoTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@146ba0ac]" name="SuiteTwoCaseTwoTest" duration-ms="6104" started-at="2016-10-18T14:45:13Z" data-provider="SuiteTwoCaseTwoData" finished-at="2016-10-18T14:45:19Z">
+        <test-method status="FAIL" signature="SuiteTwoCaseTwoTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@31ef45e3]" name="SuiteTwoCaseTwoTest" duration-ms="5805" started-at="2016-10-20T09:50:31Z" data-provider="SuiteTwoCaseTwoData" finished-at="2016-10-20T09:50:36Z">
           <params>
             <param index="0">
               <value>
@@ -251,14 +383,47 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.stta.SuiteTwo.SuiteTwoCaseTwo.SuiteTwoCaseTwoTest(SuiteTwoCaseTwo.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteTwoCaseTwoTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@146ba0ac]" name="reporterDataResults" is-config="true" duration-ms="9" started-at="2016-10-18T14:45:19Z" finished-at="2016-10-18T14:45:19Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@31ef45e3]" name="reporterDataResults" is-config="true" duration-ms="8" started-at="2016-10-20T09:50:36Z" finished-at="2016-10-20T09:50:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
-        <test-method status="PASS" signature="SuiteTwoCaseTwoTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@146ba0ac]" name="SuiteTwoCaseTwoTest" duration-ms="309" started-at="2016-10-18T14:45:19Z" data-provider="SuiteTwoCaseTwoData" finished-at="2016-10-18T14:45:19Z">
+        <test-method status="FAIL" signature="SuiteTwoCaseTwoTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@31ef45e3]" name="SuiteTwoCaseTwoTest" duration-ms="894" started-at="2016-10-20T09:50:37Z" data-provider="SuiteTwoCaseTwoData" finished-at="2016-10-20T09:50:37Z">
           <params>
             <param index="0">
               <value>
@@ -276,14 +441,47 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.stta.SuiteTwo.SuiteTwoCaseTwo.SuiteTwoCaseTwoTest(SuiteTwoCaseTwo.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteTwoCaseTwoTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@146ba0ac]" name="reporterDataResults" is-config="true" duration-ms="7" started-at="2016-10-18T14:45:19Z" finished-at="2016-10-18T14:45:19Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@31ef45e3]" name="reporterDataResults" is-config="true" duration-ms="8" started-at="2016-10-20T09:50:37Z" finished-at="2016-10-20T09:50:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@146ba0ac]" name="closeBrowser" is-config="true" duration-ms="296" started-at="2016-10-18T14:45:19Z" finished-at="2016-10-18T14:45:19Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@31ef45e3]" name="closeBrowser" is-config="true" duration-ms="1322" started-at="2016-10-20T09:50:37Z" finished-at="2016-10-20T09:50:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

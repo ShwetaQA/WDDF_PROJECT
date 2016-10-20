@@ -5,8 +5,11 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -98,5 +101,99 @@ public class SuiteBase {
 		ExistingchromeBrowser=null;
 		ExistingmozillaBrowser=null;
 		ExistingIEBrowser=null;
+	}
+	
+	//getElementByXPath function for static xpath
+	public WebElement getElementByXPath(String Key){
+		try{
+			//This block will find element using Key value from web page and return It.
+			return driver.findElement(By.xpath(Object.getProperty(Key)));
+		}catch(Throwable t){
+			//If element not found on page then It will return null.
+			Add_Log.debug("Object not found for key --"+Key);
+			return null;
+		}
+	}
+	
+	//getElementByXPath function for dynamic xpath
+	public WebElement getElementByXPath(String Key1, int val, String key2){
+		try{
+			//This block will find element using values of Key1, val and key2 from web page and return It.
+			return driver.findElement(By.xpath(Object.getProperty(Key1)+val+Object.getProperty(key2)));
+		}catch(Throwable t){
+			//If element not found on page then It will return null.
+			Add_Log.debug("Object not found for custom xpath");
+			return null;
+		}
+	}
+	
+	//Call this function to locate element by ID locator.
+	public WebElement getElementByID(String Key){
+		try{
+			return driver.findElement(By.id(Object.getProperty(Key)));
+		}catch(Throwable t){
+			Add_Log.debug("Object not found for key --"+Key);
+			return null;
+		}
+	}
+	
+	//Call this function to locate element by Name Locator.
+	public WebElement getElementByName(String Key){
+		try{
+			return driver.findElement(By.name(Object.getProperty(Key)));
+		}catch(Throwable t){
+			Add_Log.debug("Object not found for key --"+Key);
+			return null;
+		}
+	}
+	
+	//Call this function to locate element by cssSelector Locator.
+	public WebElement getElementByCSS(String Key){
+		try{
+			return driver.findElement(By.cssSelector(Object.getProperty(Key)));
+		}catch(Throwable t){
+			Add_Log.debug("Object not found for key --"+Key);
+			return null;
+		}
+	}
+	
+	//Call this function to locate element by ClassName Locator.
+	public WebElement getElementByClass(String Key){
+		try{
+			return driver.findElement(By.className(Object.getProperty(Key)));
+		}catch(Throwable t){
+			Add_Log.debug("Object not found for key --"+Key);
+			return null;
+		}
+	}
+	
+	//Call this function to locate element by tagName Locator.
+	public WebElement getElementByTagName(String Key){
+		try{
+			return driver.findElement(By.tagName(Object.getProperty(Key)));
+		}catch(Throwable t){
+			Add_Log.debug("Object not found for key --"+Key);
+			return null;
+		}
+	}
+	
+	//Call this function to locate element by link text Locator.
+	public WebElement getElementBylinkText(String Key){
+		try{
+			return driver.findElement(By.linkText(Object.getProperty(Key)));
+		}catch(Throwable t){
+			Add_Log.debug("Object not found for key --"+Key);
+			return null;
+		}
+	}
+	
+	//Call this function to locate element by partial link text Locator.
+	public WebElement getElementBypLinkText(String Key){
+		try{
+			return driver.findElement(By.partialLinkText(Object.getProperty(Key)));
+		}catch(Throwable t){
+			Add_Log.debug("Object not found for key --"+Key);
+			return null;
+		}
 	}
 }

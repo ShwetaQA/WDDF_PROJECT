@@ -88,31 +88,38 @@ public class SuiteOneCaseOne extends SuiteOneBase{
 		driver.get(Param.getProperty("siteURL")+"/2014/04/calc.html");		
 		
 		//Simple calc test.
-		//Xpath of Calc Result text box Is stored Inside object repository file Objects.propertis.
-		//We can read It using Its key txt_Result. Syntax Is Object.getProperty("txt_Result").
-		driver.findElement(By.xpath(Object.getProperty("txt_Result"))).clear();
 		
-		//Xpath of calc number buttons Is divided In two parts because we need to use variable values(ValueOne, ValueTwo, etc..) In between xpath to build full xpath of buttons.
-		//First part of xpath Is stored In 'btn_Calc_PrePart' and second part of xpath Is stored In 'btn_Calc_PostPart' In Objects.propertis file.
-		driver.findElement(By.xpath(Object.getProperty("btn_Calc_PrePart")+ValueOne+Object.getProperty("btn_Calc_PostPart"))).click();
+		//Locate Element by Name Locator example.
+		getElementByName("txt_Result").clear();
 		
-		//Xpath of '+' button Is stored Inside Objects.propertis file with key=btn_Plus
-		driver.findElement(By.xpath(Object.getProperty("btn_Plus"))).click();
+		//Locate element by dynamic xPath example.
+		getElementByXPath("btn_Calc_PrePart",ValueOne,"btn_Calc_PostPart").click();
 		
+		//Locate Element by ID Locator example.
+		getElementByID("btn_Plus").click();
 		
-		driver.findElement(By.xpath(Object.getProperty("btn_Calc_PrePart")+ValueTwo+Object.getProperty("btn_Calc_PostPart"))).click();
+		getElementByXPath("btn_Calc_PrePart",ValueTwo,"btn_Calc_PostPart").click();
 		
-		driver.findElement(By.xpath(Object.getProperty("btn_Plus"))).click();
+		getElementByID("btn_Plus").click();
 				
-		driver.findElement(By.xpath(Object.getProperty("btn_Calc_PrePart")+ValueThree+Object.getProperty("btn_Calc_PostPart"))).click();
+		getElementByXPath("btn_Calc_PrePart",ValueThree,"btn_Calc_PostPart").click();
 		
-		//Xpath of '=' button Is stored Inside Objects.propertis file with key=btn_Equals
-		driver.findElement(By.xpath(Object.getProperty("btn_Equals"))).click();
-				
-		String Result = driver.findElement(By.xpath(Object.getProperty("txt_Result"))).getAttribute("value");
+		//Locate Element by cssSelector Locator example.
+		getElementByCSS("btn_Equals").click();
 		
-		System.out.println(Result);
-		Add_Log.info("Calc Sum Test Result Is :"+ Result);
+		String Result = getElementByName("txt_Result").getAttribute("value");
+		
+		//To Convert data from String to Integer
+		int ActualResultInt =  Integer.parseInt(Result);
+		
+		//Compare actual and expected values.
+		if(!(ActualResultInt==ExpectedResultInt)){
+			//If expected and actual results not match, Set flag Testfail=true.
+			Testfail=true;	
+			//If result Is fail then test failure will be captured Inside s_assert object reference.
+			//This soft assertion will not stop your test execution.
+			s_assert.assertEquals(ActualResultInt, ExpectedResultInt, "ActualResult Value "+ActualResultInt+" And ExpectedResult Value "+ExpectedResultInt+" Not Match");
+		}
 		
 		if(Testfail){
 			//At last, test data assertion failure will be reported In testNG reports and It will mark your test data, test case and test suite as fail.

@@ -1,23 +1,29 @@
-2016-10-17 17:19:09,340 - rootLogger - INFO - All Excel Files Initialised successfully.
-2016-10-17 17:19:09,342 - rootLogger - INFO - Param.properties file loaded successfully.
-2016-10-17 17:19:09,342 - rootLogger - INFO - Execution started for SuiteOneBase.
-2016-10-17 17:19:09,387 - rootLogger - INFO - All Excel Files Initialised successfully.
-2016-10-17 17:19:09,387 - rootLogger - INFO - Param.properties file loaded successfully.
-2016-10-17 17:19:09,387 - rootLogger - INFO - SuiteOneCaseOne : Execution started.
-2016-10-17 17:19:10,668 - rootLogger - INFO - Chrome Driver Instance loaded successfully.
-2016-10-17 17:19:14,046 - rootLogger - INFO - Calc Sum Test Result Is :21
-2016-10-17 17:19:14,048 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 1 as PASS In excel.
-2016-10-17 17:19:15,245 - rootLogger - INFO - Calc Sum Test Result Is :13
-2016-10-17 17:19:15,247 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 2 as PASS In excel.
-2016-10-17 17:19:16,564 - rootLogger - INFO - SuiteOneCaseOne : Reporting test case as PASS In excel.
-2016-10-17 17:19:16,640 - rootLogger - INFO - All Excel Files Initialised successfully.
-2016-10-17 17:19:16,640 - rootLogger - INFO - Param.properties file loaded successfully.
-2016-10-17 17:19:17,450 - rootLogger - INFO - Chrome Driver Instance loaded successfully.
-2016-10-17 17:19:22,323 - rootLogger - INFO - All Excel Files Initialised successfully.
-2016-10-17 17:19:22,324 - rootLogger - INFO - Param.properties file loaded successfully.
-2016-10-17 17:19:22,353 - rootLogger - INFO - All Excel Files Initialised successfully.
-2016-10-17 17:19:22,354 - rootLogger - INFO - Param.properties file loaded successfully.
-2016-10-17 17:19:23,165 - rootLogger - INFO - Chrome Driver Instance loaded successfully.
-2016-10-17 17:19:28,397 - rootLogger - INFO - All Excel Files Initialised successfully.
-2016-10-17 17:19:28,397 - rootLogger - INFO - Param.properties file loaded successfully.
-2016-10-17 17:19:29,220 - rootLogger - INFO - Chrome Driver Instance loaded successfully.
+2016-10-19 17:09:31,210 - rootLogger - INFO - All Excel Files Initialised successfully.
+2016-10-19 17:09:31,213 - rootLogger - INFO - Param.properties file loaded successfully.
+2016-10-19 17:09:31,213 - rootLogger - INFO - Objects.properties file loaded successfully.
+2016-10-19 17:09:31,213 - rootLogger - INFO - Execution started for SuiteOneBase.
+2016-10-19 17:09:31,255 - rootLogger - INFO - All Excel Files Initialised successfully.
+2016-10-19 17:09:31,255 - rootLogger - INFO - Param.properties file loaded successfully.
+2016-10-19 17:09:31,256 - rootLogger - INFO - Objects.properties file loaded successfully.
+2016-10-19 17:09:31,256 - rootLogger - INFO - SuiteOneCaseOne : Execution started.
+2016-10-19 17:09:33,327 - rootLogger - INFO - Chrome Driver Instance loaded successfully.
+2016-10-19 17:09:37,855 - rootLogger - INFO - Calc Sum Test Result Is :21
+2016-10-19 17:09:37,856 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 1 as PASS In excel.
+2016-10-19 17:09:39,424 - rootLogger - INFO - Calc Sum Test Result Is :13
+2016-10-19 17:09:39,425 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 2 as PASS In excel.
+2016-10-19 17:09:40,563 - rootLogger - INFO - SuiteOneCaseOne : Reporting test case as PASS In excel.
+2016-10-19 17:09:40,933 - rootLogger - INFO - All Excel Files Initialised successfully.
+2016-10-19 17:09:40,934 - rootLogger - INFO - Param.properties file loaded successfully.
+2016-10-19 17:09:40,936 - rootLogger - INFO - Objects.properties file loaded successfully.
+2016-10-19 17:09:41,769 - rootLogger - INFO - Chrome Driver Instance loaded successfully.
+2016-10-19 17:09:47,239 - rootLogger - INFO - All Excel Files Initialised successfully.
+2016-10-19 17:09:47,239 - rootLogger - INFO - Param.properties file loaded successfully.
+2016-10-19 17:09:47,239 - rootLogger - INFO - Objects.properties file loaded successfully.
+2016-10-19 17:09:47,281 - rootLogger - INFO - All Excel Files Initialised successfully.
+2016-10-19 17:09:47,281 - rootLogger - INFO - Param.properties file loaded successfully.
+2016-10-19 17:09:47,282 - rootLogger - INFO - Objects.properties file loaded successfully.
+2016-10-19 17:09:48,413 - rootLogger - INFO - Chrome Driver Instance loaded successfully.
+2016-10-19 17:09:53,635 - rootLogger - INFO - All Excel Files Initialised successfully.
+2016-10-19 17:09:53,635 - rootLogger - INFO - Param.properties file loaded successfully.
+2016-10-19 17:09:53,635 - rootLogger - INFO - Objects.properties file loaded successfully.
+2016-10-19 17:09:54,941 - rootLogger - INFO - Chrome Driver Instance loaded successfully.
