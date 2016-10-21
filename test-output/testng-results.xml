@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17581" started-at="2016-10-20T16:20:49Z" finished-at="2016-10-20T16:21:07Z">
+  <suite name="Default suite" duration-ms="11082" started-at="2016-10-21T12:21:17Z" finished-at="2016-10-21T12:21:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17581" started-at="2016-10-20T16:20:49Z" finished-at="2016-10-20T16:21:07Z">
+    <test name="Default test" duration-ms="11082" started-at="2016-10-21T12:21:17Z" finished-at="2016-10-21T12:21:28Z">
       <class name="com.stta.SuiteOne.SuiteOneCaseTwo">
-        <test-method status="PASS" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6093dd95]" name="SuiteOneCaseTwoTest" duration-ms="1426" started-at="2016-10-20T17:20:59Z" data-provider="SuiteOneCaseTwoData" finished-at="2016-10-20T17:21:01Z">
+        <test-method status="PASS" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6a192cfe]" name="SuiteOneCaseTwoTest" duration-ms="6930" started-at="2016-10-21T13:21:17Z" data-provider="SuiteOneCaseTwoData" finished-at="2016-10-21T13:21:24Z">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteOneCaseTwoTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6093dd95]" name="reporterDataResults" is-config="true" duration-ms="3" started-at="2016-10-20T17:21:01Z" finished-at="2016-10-20T17:21:01Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6a192cfe]" name="reporterDataResults" is-config="true" duration-ms="11" started-at="2016-10-21T13:21:24Z" finished-at="2016-10-21T13:21:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
-        <test-method status="PASS" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6093dd95]" name="SuiteOneCaseTwoTest" duration-ms="1216" started-at="2016-10-20T17:21:01Z" data-provider="SuiteOneCaseTwoData" finished-at="2016-10-20T17:21:02Z">
+        <test-method status="PASS" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6a192cfe]" name="SuiteOneCaseTwoTest" duration-ms="1611" started-at="2016-10-21T13:21:24Z" data-provider="SuiteOneCaseTwoData" finished-at="2016-10-21T13:21:26Z">
           <params>
             <param index="0">
               <value>
@@ -63,81 +63,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteOneCaseTwoTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6093dd95]" name="reporterDataResults" is-config="true" duration-ms="3" started-at="2016-10-20T17:21:02Z" finished-at="2016-10-20T17:21:02Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6a192cfe]" name="reporterDataResults" is-config="true" duration-ms="10" started-at="2016-10-21T13:21:26Z" finished-at="2016-10-21T13:21:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
       </class> <!-- com.stta.SuiteOne.SuiteOneCaseTwo -->
-      <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
-        <test-method status="PASS" signature="SuiteTwoCaseOneTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@5622fdf]" name="SuiteTwoCaseOneTest" duration-ms="1145" started-at="2016-10-20T17:21:02Z" data-provider="SuiteTwoCaseOneData" finished-at="2016-10-20T17:21:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[45]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SuiteTwoCaseOneTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@5622fdf]" name="reporterDataResults" is-config="true" duration-ms="3" started-at="2016-10-20T17:21:03Z" finished-at="2016-10-20T17:21:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporterDataResults -->
-        <test-method status="PASS" signature="SuiteTwoCaseOneTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@5622fdf]" name="SuiteTwoCaseOneTest" duration-ms="1136" started-at="2016-10-20T17:21:03Z" data-provider="SuiteTwoCaseOneData" finished-at="2016-10-20T17:21:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[7]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[21]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SuiteTwoCaseOneTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@5622fdf]" name="reporterDataResults" is-config="true" duration-ms="4" started-at="2016-10-20T17:21:04Z" finished-at="2016-10-20T17:21:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporterDataResults -->
-      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
       <class name="com.stta.SuiteOne.SuiteOneCaseOne">
-        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@4883b407]" name="checkCaseToRun" is-config="true" duration-ms="8" started-at="2016-10-20T17:20:49Z" finished-at="2016-10-20T17:20:49Z">
+        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@5119fb47]" name="checkCaseToRun" is-config="true" duration-ms="19" started-at="2016-10-21T13:21:17Z" finished-at="2016-10-21T13:21:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCaseToRun -->
-        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6093dd95]" name="checkCaseToRun" is-config="true" duration-ms="6" started-at="2016-10-20T17:20:49Z" finished-at="2016-10-20T17:20:49Z">
+        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6a192cfe]" name="checkCaseToRun" is-config="true" duration-ms="8" started-at="2016-10-21T13:21:17Z" finished-at="2016-10-21T13:21:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCaseToRun -->
-        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@5622fdf]" name="checkCaseToRun" is-config="true" duration-ms="7" started-at="2016-10-20T17:20:49Z" finished-at="2016-10-20T17:20:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkCaseToRun -->
-        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@7cd62f43]" name="checkCaseToRun" is-config="true" duration-ms="9" started-at="2016-10-20T17:20:49Z" finished-at="2016-10-20T17:20:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkCaseToRun -->
-        <test-method status="PASS" signature="SuiteOneCaseOneTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@4883b407]" name="SuiteOneCaseOneTest" duration-ms="1231" started-at="2016-10-20T17:21:04Z" data-provider="SuiteOneCaseOneData" finished-at="2016-10-20T17:21:05Z">
+        <test-method status="PASS" signature="SuiteOneCaseOneTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@5119fb47]" name="SuiteOneCaseOneTest" duration-ms="1197" started-at="2016-10-21T13:21:26Z" data-provider="SuiteOneCaseOneData" finished-at="2016-10-21T13:21:27Z">
           <params>
             <param index="0">
               <value>
@@ -163,11 +103,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteOneCaseOneTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@4883b407]" name="reporterDataResults" is-config="true" duration-ms="3" started-at="2016-10-20T17:21:05Z" finished-at="2016-10-20T17:21:05Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@5119fb47]" name="reporterDataResults" is-config="true" duration-ms="9" started-at="2016-10-21T13:21:27Z" finished-at="2016-10-21T13:21:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
-        <test-method status="PASS" signature="SuiteOneCaseOneTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@4883b407]" name="SuiteOneCaseOneTest" duration-ms="1306" started-at="2016-10-20T17:21:05Z" data-provider="SuiteOneCaseOneData" finished-at="2016-10-20T17:21:07Z">
+        <test-method status="PASS" signature="SuiteOneCaseOneTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@5119fb47]" name="SuiteOneCaseOneTest" duration-ms="1230" started-at="2016-10-21T13:21:27Z" data-provider="SuiteOneCaseOneData" finished-at="2016-10-21T13:21:28Z">
           <params>
             <param index="0">
               <value>
@@ -193,85 +133,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteOneCaseOneTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@4883b407]" name="reporterDataResults" is-config="true" duration-ms="2" started-at="2016-10-20T17:21:07Z" finished-at="2016-10-20T17:21:07Z">
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@5119fb47]" name="reporterDataResults" is-config="true" duration-ms="9" started-at="2016-10-21T13:21:28Z" finished-at="2016-10-21T13:21:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporterDataResults -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@4883b407]" name="closeBrowser" is-config="true" duration-ms="8" started-at="2016-10-20T17:21:07Z" finished-at="2016-10-20T17:21:07Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@5119fb47]" name="closeBrowser" is-config="true" duration-ms="13" started-at="2016-10-21T13:21:28Z" finished-at="2016-10-21T13:21:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6093dd95]" name="closeBrowser" is-config="true" duration-ms="7" started-at="2016-10-20T17:21:07Z" finished-at="2016-10-20T17:21:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@5622fdf]" name="closeBrowser" is-config="true" duration-ms="6" started-at="2016-10-20T17:21:07Z" finished-at="2016-10-20T17:21:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@7cd62f43]" name="closeBrowser" is-config="true" duration-ms="6" started-at="2016-10-20T17:21:07Z" finished-at="2016-10-20T17:21:07Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@6a192cfe]" name="closeBrowser" is-config="true" duration-ms="13" started-at="2016-10-21T13:21:28Z" finished-at="2016-10-21T13:21:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.stta.SuiteOne.SuiteOneCaseOne -->
-      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
-        <test-method status="PASS" signature="SuiteTwoCaseTwoTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@7cd62f43]" name="SuiteTwoCaseTwoTest" duration-ms="8448" started-at="2016-10-20T17:20:49Z" data-provider="SuiteTwoCaseTwoData" finished-at="2016-10-20T17:20:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SuiteTwoCaseTwoTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@7cd62f43]" name="reporterDataResults" is-config="true" duration-ms="5" started-at="2016-10-20T17:20:58Z" finished-at="2016-10-20T17:20:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporterDataResults -->
-        <test-method status="PASS" signature="SuiteTwoCaseTwoTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@7cd62f43]" name="SuiteTwoCaseTwoTest" duration-ms="1564" started-at="2016-10-20T17:20:58Z" data-provider="SuiteTwoCaseTwoData" finished-at="2016-10-20T17:20:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[8]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SuiteTwoCaseTwoTest -->
-        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@7cd62f43]" name="reporterDataResults" is-config="true" duration-ms="3" started-at="2016-10-20T17:20:59Z" finished-at="2016-10-20T17:20:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporterDataResults -->
-      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
       <class name="com.stta.SuiteOne.SuiteOneBase">
-        <test-method status="PASS" signature="checkSuiteToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneBase@6d4b1c02]" name="checkSuiteToRun" is-config="true" duration-ms="237" started-at="2016-10-20T17:20:49Z" finished-at="2016-10-20T17:20:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkSuiteToRun -->
-        <test-method status="PASS" signature="checkSuiteToRun()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@7cd62f43]" name="checkSuiteToRun" is-config="true" duration-ms="23" started-at="2016-10-20T17:20:49Z" finished-at="2016-10-20T17:20:49Z">
+        <test-method status="PASS" signature="checkSuiteToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneBase@1ea9f6af]" name="checkSuiteToRun" is-config="true" duration-ms="299" started-at="2016-10-21T13:21:17Z" finished-at="2016-10-21T13:21:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSuiteToRun -->

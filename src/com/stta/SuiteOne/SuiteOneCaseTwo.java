@@ -67,6 +67,7 @@ public class SuiteOneCaseTwo extends SuiteOneBase{
 		
 		//If found DataToRun = "N" for data set then execution will be skipped for that data set.
 		if(!TestDataToRun[DataSet].equalsIgnoreCase("Y")){
+			Add_Log.info(TestCaseName+" : DataToRun = N for data set line "+(DataSet+1)+" So skipping Its execution.");
 			//If DataToRun = "N", Set Testskip=true.
 			Testskip=true;
 			throw new SkipException("DataToRun for row number "+DataSet+" Is No Or Blank. So Skipping Its Execution.");
@@ -107,10 +108,12 @@ public class SuiteOneCaseTwo extends SuiteOneBase{
 	@AfterMethod
 	public void reporterDataResults(){		
 		if(Testskip){
+			Add_Log.info(TestCaseName+" : Reporting test data set line "+(DataSet+1)+" as SKIP In excel.");
 			//If found Testskip = true, Result will be reported as SKIP against data set line In excel sheet.
 			SuiteUtility.WriteResultUtility(FilePath, TestCaseName, "Pass/Fail/Skip", DataSet+1, "SKIP");
 		}
 		else if(Testfail){
+			Add_Log.info(TestCaseName+" : Reporting test data set line "+(DataSet+1)+" as FAIL In excel.");
 			//To make object reference null after reporting In report.
 			s_assert = null;
 			//Set TestCasePass = false to report test case as fail In excel sheet.
@@ -119,6 +122,7 @@ public class SuiteOneCaseTwo extends SuiteOneBase{
 			SuiteUtility.WriteResultUtility(FilePath, TestCaseName, "Pass/Fail/Skip", DataSet+1, "FAIL");			
 		}
 		else{
+			Add_Log.info(TestCaseName+" : Reporting test data set line "+(DataSet+1)+" as PASS In excel.");
 			//If found Testskip = false and Testfail = false, Result will be reported as PASS against data set line In excel sheet.
 			SuiteUtility.WriteResultUtility(FilePath, TestCaseName, "Pass/Fail/Skip", DataSet+1, "PASS");
 		}
@@ -141,9 +145,11 @@ public class SuiteOneCaseTwo extends SuiteOneBase{
 		//To Close the web browser at the end of test.
 		closeWebBrowser();
 		if(TestCasePass){
+			Add_Log.info(TestCaseName+" : Reporting test case as PASS In excel.");
 			SuiteUtility.WriteResultUtility(FilePath, SheetName, "Pass/Fail/Skip", TestCaseName, "PASS");
 		}
 		else{
+			Add_Log.info(TestCaseName+" : Reporting test case as FAIL In excel.");
 			SuiteUtility.WriteResultUtility(FilePath, SheetName, "Pass/Fail/Skip", TestCaseName, "FAIL");
 			
 		}

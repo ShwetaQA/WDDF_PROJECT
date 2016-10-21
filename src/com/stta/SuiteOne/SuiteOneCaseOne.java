@@ -10,8 +10,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
 import com.stta.utility.Read_XLS;
 import com.stta.utility.SuiteUtility;
 
@@ -30,6 +32,7 @@ public class SuiteOneCaseOne extends SuiteOneBase{
 	static boolean Testfail=false;
 	SoftAssert s_assert =null;	
 	
+	@Parameters("browser")
 	@BeforeTest
 	public void checkCaseToRun() throws IOException
 	{
@@ -64,6 +67,7 @@ public class SuiteOneCaseOne extends SuiteOneBase{
 	
 	
 	//Accepts 4 column's String data In every Iteration.
+	
 	@Test(dataProvider="SuiteOneCaseOneData")
 	public void SuiteOneCaseOneTest(String DataCol1,String DataCol2,String DataCol3,String ExpectedResult)
 	{

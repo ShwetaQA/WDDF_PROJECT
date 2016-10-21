@@ -1,24 +1,18 @@
-2016-10-20 17:20:49,575 - rootLogger - INFO - All Excel Files Initialised successfully.
-2016-10-20 17:20:49,580 - rootLogger - INFO - Param.properties file loaded successfully.
-2016-10-20 17:20:49,583 - rootLogger - INFO - Objects.properties file loaded successfully.
-2016-10-20 17:20:49,583 - rootLogger - INFO - Execution started for SuiteOneBase.
-2016-10-20 17:20:49,622 - rootLogger - INFO - All Excel Files Initialised successfully.
-2016-10-20 17:20:49,622 - rootLogger - INFO - Param.properties file loaded successfully.
-2016-10-20 17:20:49,623 - rootLogger - INFO - Objects.properties file loaded successfully.
-2016-10-20 17:20:49,642 - rootLogger - INFO - All Excel Files Initialised successfully.
-2016-10-20 17:20:49,642 - rootLogger - INFO - Param.properties file loaded successfully.
-2016-10-20 17:20:49,643 - rootLogger - INFO - Objects.properties file loaded successfully.
-2016-10-20 17:20:49,643 - rootLogger - INFO - SuiteOneCaseOne : Execution started.
-2016-10-20 17:20:49,648 - rootLogger - INFO - All Excel Files Initialised successfully.
-2016-10-20 17:20:49,648 - rootLogger - INFO - Param.properties file loaded successfully.
-2016-10-20 17:20:49,648 - rootLogger - INFO - Objects.properties file loaded successfully.
-2016-10-20 17:20:49,655 - rootLogger - INFO - All Excel Files Initialised successfully.
-2016-10-20 17:20:49,655 - rootLogger - INFO - Param.properties file loaded successfully.
-2016-10-20 17:20:49,656 - rootLogger - INFO - Objects.properties file loaded successfully.
-2016-10-20 17:20:49,664 - rootLogger - INFO - All Excel Files Initialised successfully.
-2016-10-20 17:20:49,664 - rootLogger - INFO - Param.properties file loaded successfully.
-2016-10-20 17:20:49,664 - rootLogger - INFO - Objects.properties file loaded successfully.
-2016-10-20 17:20:55,155 - rootLogger - INFO - Firefox Driver Instance loaded successfully.
-2016-10-20 17:21:05,874 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 1 as PASS In excel.
-2016-10-20 17:21:07,184 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 2 as PASS In excel.
-2016-10-20 17:21:07,193 - rootLogger - INFO - SuiteOneCaseOne : Reporting test case as PASS In excel.
+2016-10-21 13:21:17,648 - rootLogger - INFO - All Excel Files Initialised successfully.
+2016-10-21 13:21:17,651 - rootLogger - INFO - Param.properties file loaded successfully.
+2016-10-21 13:21:17,663 - rootLogger - INFO - Objects.properties file loaded successfully.
+2016-10-21 13:21:17,664 - rootLogger - INFO - Execution started for SuiteOneBase.
+2016-10-21 13:21:17,714 - rootLogger - INFO - All Excel Files Initialised successfully.
+2016-10-21 13:21:17,715 - rootLogger - INFO - Param.properties file loaded successfully.
+2016-10-21 13:21:17,716 - rootLogger - INFO - Objects.properties file loaded successfully.
+2016-10-21 13:21:17,716 - rootLogger - INFO - SuiteOneCaseOne : Execution started.
+2016-10-21 13:21:17,722 - rootLogger - INFO - All Excel Files Initialised successfully.
+2016-10-21 13:21:17,723 - rootLogger - INFO - Param.properties file loaded successfully.
+2016-10-21 13:21:17,723 - rootLogger - INFO - Objects.properties file loaded successfully.
+2016-10-21 13:21:22,702 - rootLogger - INFO - Firefox Driver Instance loaded successfully.
+2016-10-21 13:21:24,670 - rootLogger - INFO - SuiteOneCaseTwo : Reporting test data set line 1 as PASS In excel.
+2016-10-21 13:21:26,293 - rootLogger - INFO - SuiteOneCaseTwo : Reporting test data set line 2 as PASS In excel.
+2016-10-21 13:21:27,503 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 1 as PASS In excel.
+2016-10-21 13:21:28,742 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 2 as PASS In excel.
+2016-10-21 13:21:28,756 - rootLogger - INFO - SuiteOneCaseOne : Reporting test case as PASS In excel.
+2016-10-21 13:21:28,768 - rootLogger - INFO - SuiteOneCaseTwo : Reporting test case as PASS In excel.

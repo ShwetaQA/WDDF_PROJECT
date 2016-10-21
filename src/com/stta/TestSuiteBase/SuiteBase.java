@@ -29,8 +29,10 @@ public class SuiteBase {
 	public static WebDriver ExistingchromeBrowser;
 	public static WebDriver ExistingmozillaBrowser;
 	public static WebDriver ExistingIEBrowser;
+	public boolean isInitialized=false;
 	
 	public void init() throws IOException{
+
 		//To Initialize logger service.
 		Add_Log = Logger.getLogger("rootLogger");				
 				
@@ -55,6 +57,10 @@ public class SuiteBase {
 		fip = new FileInputStream(System.getProperty("user.dir")+"//src//com//stta//property//Objects.properties");
 		Object.load(fip);
 		Add_Log.info("Objects.properties file loaded successfully.");
+		
+		isInitialized=true;
+		
+	
 	}
 	
 	public void loadWebBrowser(){
